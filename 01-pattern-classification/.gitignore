@@ -1,0 +1,55 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local logs and temporary files
+*.log
+tmp/
+temp/
+
+# Model artifacts and large datasets
+data/raw/
+data/processed/
+datasets/
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+
+# Local experiment outputs
+results/*.csv
+results/*.parquet
